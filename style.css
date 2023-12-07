@@ -7,10 +7,22 @@ body
     display: flex;
     flex-direction: column;
     background-color: light;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 2px;
+    margin-right: 2px;
     justify-content:space-between;
     margin-bottom: 20px;
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+}
+.div2
+{
+    background-color: white;
+    width: 300px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid white ;
+    padding-left: 10px;
 }
 .row
 {
@@ -25,7 +37,7 @@ body
 }
 .imart
 {
-    width: 300px;;
+    width: 100%;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     border: 1px solid white ;
@@ -52,7 +64,7 @@ body
     }
     .divimg, .btn
     {
-        font-size: 30px;
+        font-size: 20px;
     }
     .divimg
     {
