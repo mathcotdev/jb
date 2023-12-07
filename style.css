@@ -2,6 +2,10 @@ body
 {
     background-color: black;
 }
+.pt
+{
+    font-size: small;
+}
 .divimg
 {
     display: flex;
